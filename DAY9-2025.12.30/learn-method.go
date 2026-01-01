@@ -17,6 +17,9 @@ type User struct {
 	Address //匿名字段
 }
 
+
+
+
 type Animal struct {
 	name string
 }
@@ -27,7 +30,7 @@ func (a *Animal) move() {
 
 type Dog struct {
 	Feet int8
-	*Animal
+	*Animal //通过匿名结构体实现继承
 }
 
 func (d *Dog) wang() {
