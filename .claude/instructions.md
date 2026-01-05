@@ -21,51 +21,106 @@
 
 ## 学习路线规划
 
-### 基础阶段（已完成 ✅）
-- DAY1-2: 变量、常量、数据类型
-- DAY3: 流程控制
-- DAY4-5: 数组、切片
-- DAY6: map
-- DAY7: 函数、闭包、defer
-- DAY8: 指针、结构体
-- DAY9: 方法
+> 重要度说明：⭐⭐⭐⭐⭐ 必学精通 | ⭐⭐⭐⭐ 重点掌握 | ⭐⭐⭐ 理解使用 | ⭐⭐ 了解 | ⭐ 略知
 
-### 进阶阶段
-- DAY10: 接口基础
-- DAY11: 空接口、类型断言
-- DAY12: goroutine 入门
-- DAY13: channel 入门
-- DAY14: channel 进阶、select
-- DAY15: sync 包（Mutex、WaitGroup）
-- DAY16: context
-- DAY17: 并发综合练习
+### 基础阶段（已完成 ✅ 2025.12.22 - 2025.12.30）
+- DAY1-2: 变量、常量、数据类型 ⭐
+- DAY3: 流程控制 ⭐
+- DAY4-5: 数组、切片 ⭐
+- DAY6: map ⭐⭐⭐ 后端常用
+- DAY7: 函数、闭包、defer ⭐⭐ defer 很重要
+- DAY8: 指针、结构体 ⭐⭐⭐
+- DAY9: 方法、JSON ⭐⭐⭐ JSON 是后端核心
 
-### 工程阶段
-- DAY18: Go Module、项目结构
-- DAY19: 单元测试
-- DAY20: 错误处理、日志
-- DAY21: 配置管理（viper）
+### 进阶阶段（⭐ 核心阶段）
+- DAY10: 包基础 (2026.01.03 ✅) ⭐⭐
+- DAY11: 空接口、类型断言 (2026.01.04 ✅) ⭐⭐⭐
+- DAY12: 错误接口 (2026.01.05 ✅) ⭐⭐⭐
+- **DAY13: channel 入门** (2026.01.06 📌) ⭐⭐⭐⭐⭐ 并发核心
+- **DAY14: channel 进阶、select** ⭐⭐⭐⭐
+- **DAY15: sync 包（Mutex、WaitGroup）** ⭐⭐⭐⭐⭐
+- **DAY16: context** ⭐⭐⭐⭐⭐ 请求链路必用
+- DAY17: 并发综合练习 ⭐⭐⭐
 
-### 网络编程
-- DAY22: net/http 基础
-- DAY23: JSON 处理
-- DAY24: HTTP 客户端
-- DAY25: 模板渲染
+### 工程阶段（⭐ 大厂必备）
+- DAY18: Go Module、项目结构 ⭐⭐⭐⭐
+- DAY19: 单元测试 ⭐⭐⭐⭐ 大厂必备
+- DAY20: 错误处理、日志 ⭐⭐⭐⭐
+- DAY21: 配置管理（viper） ⭐⭐⭐
 
-### 数据库
-- DAY26: database/sql 标准库
-- DAY27: MySQL CRUD
-- DAY28: 事务、连接池
-- DAY29: GORM 入门
+### 网络编程（⭐⭐⭐ 后端核心）
+- DAY22: net/http 基础 ⭐⭐⭐⭐⭐ 后端核心
+- DAY23: JSON 处理 ⭐⭐⭐⭐⭐
+- DAY24: HTTP 客户端 ⭐⭐⭐
+- DAY25: 模板渲染 ⭐⭐（前后端分离时代用得少）
 
-### 项目实战
-- DAY30-35: Todo REST API（完整项目）
+### 数据库（⭐⭐ 数据持久化）
+- DAY26: database/sql 标准库 ⭐⭐⭐⭐
+- DAY27: MySQL CRUD ⭐⭐⭐⭐⭐
+- DAY28: 事务、连接池 ⭐⭐⭐⭐⭐
+- DAY29: GORM 入门 ⭐⭐⭐⭐⭐ 业界主流
+
+### 项目实战（⭐⭐⭐⭐⭐ 融会贯通）
+- DAY30-35: Todo REST API（完整项目） ⭐⭐⭐⭐⭐
+
+---
+
+## 🔥 最核心的 5 个模块（必须精通）
+
+1. **并发编程** (DAY13-16) - Go 的核心竞争力
+2. **HTTP 服务** (DAY22-23) - 后端基石
+3. **数据库** (DAY26-29) - 数据持久化
+4. **工程规范** (DAY18-21) - 大厂要求
+5. **项目实战** (DAY30-35) - 综合运用
+
+---
 
 ## 代码风格
 
 - 使用 Go 的惯用写法
 - 变量名使用驼峰命名
 - 添加必要的中文注释
+
+## Git Commit 规范（Conventional Commits）
+
+> 大厂工程规范，提交信息遵循以下格式
+
+### 基本格式
+```
+type(scope): description
+```
+
+### Type 类型
+
+| 前缀 | 含义 | 示例 |
+|------|------|------|
+| `feat:` | 新功能 | `feat: 添加用户登录接口` |
+| `fix:` | 修复 bug | `fix: 修复内存泄漏问题` |
+| `docs:` | 文档改动 | `docs: 更新 README` |
+| `style:` | 代码格式（不影响逻辑） | `style: 统一缩进` |
+| `refactor:` | 重构（不修bug也不加功能） | `refactor: 重构配置加载逻辑` |
+| `perf:` | 性能优化 | `perf: 优化查询速度` |
+| `test:` | 测试相关 | `test: 添加单元测试` |
+| `chore:` | 构建/工具链变动 | `chore: 升级依赖版本` |
+| `ci:` | CI/CD 配置 | `ci: 修改 GitHub Actions` |
+| `revert:` | 回滚提交 | `revert: 撤销上次提交` |
+
+### 示例
+```bash
+feat(auth): 添加 JWT 认证
+fix(db): 修复连接池泄漏
+refactor(api): 重构路由注册
+```
+
+### 为什么要有这个规范？
+1. 自动生成 CHANGELOG.md
+2. 配合语义化版本
+3. 方便 code review 和 git 历史
+
+### 工具推荐
+- `commitlint` - 校验 commit 格式
+- `standard-version` - 自动生成 changelog
+- `husky` - git hooks 自动化
 
 ## 交互偏好
 
