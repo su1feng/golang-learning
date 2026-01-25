@@ -1,0 +1,42 @@
+[Su1feng]2026/01/25 16:28:26.560394 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 16:28:26.560649 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:24: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 16:40:25.844038 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 16:40:25.844229 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:24: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 16:40:48.941017 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 16:40:48.941252 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:24: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 16:42:17.292138 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 16:42:17.292623 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:24: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 16:43:00.750490 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 16:43:00.751365 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:27: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:00:46.067365 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:00:46.068456 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:15:50.149941 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:15:50.150220 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:16:00.102242 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:16:00.103068 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:18:03.017911 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:18:03.018634 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:19:36.469938 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:19:36.470151 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:19:40.500440 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:19:40.501033 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:19:41.270403 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:19:41.270649 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:19:41.786968 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:19:41.787216 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:19:42.174328 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:19:42.174638 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:19:42.626308 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:19:42.626649 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:22:09.731772 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:22:09.732503 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:22:26.854501 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:22:26.855360 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 17:23:01.142304 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 17:23:01.142915 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 20:46:43.553971 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 20:46:43.555100 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 20:47:10.786172 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 20:47:10.786667 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
+[Su1feng]2026/01/25 23:11:24.165277 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:19: 这是第一条日志
+[Su1feng]2026/01/25 23:11:24.166315 /home/su1feng/golang-learning/DAY22-2026.01.25/learn-log.go:30: 无法打开配置文件 open config.json: no such file or directory
