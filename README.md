@@ -56,4 +56,5 @@
 - 单元测试：文件名 `_test.go`，函数名 `TestXxx(t *testing.T)`，`go test` 运行
 - 泛型：`func F[T any](v T) T`，`T ~int` 类型约束，`comparable` 可比较约束
 
-# 常用标准库(ing):
+# 项目(ing):
+    SFcache(ing)
